@@ -1,21 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tugas.bab5;
+package mainarith;
 
-/**
- *
- * @author irwin deriyan
- */
-public class TugasBab5 {
+public class Aritmatika {
+   
+    public Aritmatika() {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
     }
-    
+
+    public static void penjumlahan(int nil1, int nil2) {
+        int hasil = nil1 + nil2;
+    }
+
+    public static void pengurangan(int nil1, int nil2) {
+        int hasil = nil1 - nil2;
+    }
+
+    public void perkalian(int nil1, int nil2) {
+        int hasil = nil1 * nil2;
+    }
+
+    public void pembagian(double nil1, double nil2) {
+        double hasil = nil1 / nil2;
+    }
+    public void Sederhana(int hasil){
+        
+    }
 }
+
