@@ -4,10 +4,6 @@ public class Aritmatika {
 
     private int pembilang, penyebut;
 
-    public Aritmatika() {
-
-    }
-
     public static void penjumlahan(int nil1, int nil2) {
         int tambah = nil1 + nil2;
         System.out.println("Hasil Penjumlahan   : " + tambah);
@@ -44,7 +40,7 @@ public class Aritmatika {
         }
         int hasil = pembilang /= a;
         int hsl = penyebut /= a;
-        System.out.print("Hasil penyederhanaan: " + (hasil));
+        System.out.print("Hasil Penyederhanaan: " + (hasil));
         System.out.print("/");
         System.out.println(hsl);
 
